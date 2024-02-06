@@ -58,11 +58,12 @@ while (starCounter < stars.length){
   console.log( stars[starCounter]);
   starCounter+=1;
 }
+/* Hopefully this fixes the while loop*/
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 
-i = 0;
+let i = 0;
 while (i <6){
   console.log(i);
   i++;
